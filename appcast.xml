@@ -6,6 +6,36 @@
         <description>Neueste Updates für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
+        <!-- Version 1.0.1 -->
+        <item>
+            <title>Davlanggisch Docs Version 1.0.1</title>
+            <description><![CDATA[
+                <h2>Neuheiten in Davlanggisch Docs 1.0.1 (Build 2):</h2>
+                <ul>
+                    <li><strong>Vergangenheits-Wörter (Präteritum) Blockade:</strong> Vergangenheitsformen (-ate, -ates, -atet, -at sowie unregelmäßige Formen wie hitate, albat oder deutsche Präterita) werden im Wörterbuch nicht mehr akzeptiert, da Wörterbucheinträge reine Gegenwarts-/Grundformen sein müssen.</li>
+                    <li><strong>Duplikat-Prüfung gegen Live-Gist &amp; Dokument:</strong> Wörter, die bereits im 4.346+ Wörter zählenden Live-Gist oder im Dokument existieren, werden automatisch abgelehnt und rot hervorgehoben.</li>
+                    <li><strong>Direkter Live-Gist Wörterbuch-Import:</strong> Neues Dokument mit allen 4.346+ Wörtern direkt per 1-Klick auf dem Dashboard oder im Editor importieren.</li>
+                    <li><strong>Intelligenter Smart-Paste Parser:</strong> Kopierte Wortlisten mit oder ohne Aussprache (Tabs, Pipes, Doppelpunkte, JSON) werden automatisch analysiert und in die richtigen Tabellenspalten eingefügt.</li>
+                    <li><strong>Kaya KI mit zwei Betriebsmodi:</strong>
+                        <ul>
+                            <li><em>Vollbild-Modus (Dashboard):</em> Vollwertiges KI-Studio mit Konversationsverlauf (synchronisiert mit dem Davlanggisch-Übersetzer) und neuem Chat.</li>
+                            <li><em>Side-Panel Modus (Im Dokument):</em> Rechts andockendes Begleitfenster mit In-Dokument-Suche und 1-Klick-Wortübernahme.</li>
+                        </ul>
+                    </li>
+                    <li><strong>App-Updates über Kaya:</strong> Kaya kann auf Sprachbefehl („App updaten“, „Nach Updates suchen“) die automatische Sparkle-Aktualisierung anstoßen.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 30 Oct 2026 18:15:00 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.1/DavlanggischDocs-1.0.1.dmg"
+                length="2326211"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="rccruKrX7kNI4QbnrNQQ9jPKr291NYLNHh3g3/GjeRmWd2Q5KdzXut4vtt51aRRt9xAXmzg4ycT/51Mj7S/dBA==" />
+        </item>
+
         <!-- Version 1.0.0 -->
         <item>
             <title>Davlanggisch Docs Version 1.0.0</title>
@@ -33,4 +63,3 @@
         </item>
     </channel>
 </rss>
-
