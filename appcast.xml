@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Davlanggisch Docs – Software Updates</title>
+        <link>https://github.com/rolfmuff17-dot/Davlanggisch-docs</link>
+        <description>Neueste Updates für Davlanggisch Docs macOS.</description>
+        <language>de</language>
+
+        <!-- Version 1.0.0 -->
+        <item>
+            <title>Davlanggisch Docs Version 1.0.0</title>
+            <description><![CDATA[
+                <h2>Neuheiten in Davlanggisch Docs 1.0.0 (Build 1):</h2>
+                <ul>
+                    <li><strong>Google Docs-Design:</strong> Modernes Dashboard mit Dokumenten-Raster, Titelsuche, 3-Striche-Drawer und 9-Punkte-Waffel-Menü.</li>
+                    <li><strong>Unendliches Dokumentenblatt:</strong> Breites Endlosblatt mit linksbündiger Zeilennummerierung (1, 2, 3...) und editierbarem Dokumenttitel.</li>
+                    <li><strong>Wörterbuch-Syntax &amp; Gist-Kompatibilität:</strong> Direkte Erstellung und Verwaltung von Davlanggisch-Wortdefinitionen ({ "de": "...", "schrift": "...", "laut": "..." }).</li>
+                    <li><strong>✦ Kaya KI-Studio:</strong> Intelligente Wortschöpfung nach linguistischen Davlanggisch-Regeln mit 1-Klick-Übernahme ins Dokument. Multi-Modell Fallback (gemini-3-flash-preview, gemini-3.1-flash-lite) über native macOS URLSession.</li>
+                    <li><strong>Konto &amp; Profil-Lightbox:</strong> Vollständiges Anmeldesystem (E-Mail/Passwort, Google, Microsoft) mit Profilbild-Großansicht (Lightbox), Account-Wechsler und automatischer Sitzungssynchronisation.</li>
+                    <li><strong>Eigenständiges App-Icon:</strong> Einzigartiges Apple-Squircle-Design für macOS Dock und Finder.</li>
+                    <li><strong>Sparkle 2 Auto-Updater:</strong> Automatische Hintergrund-Updates direkt über GitHub Releases.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 30 Oct 2026 17:30:00 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.0/DavlanggischDocs-1.0.0.dmg"
+                length="2070508"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="Xlh+iL1xO+yp5ru+LqSq86L2faj9B437hxQf+IEbggVIus9s8LbtAEJfbTmusmn9GtjH8ajgYvPYSaVonVAECQ==" />
+        </item>
+    </channel>
+</rss>
+
