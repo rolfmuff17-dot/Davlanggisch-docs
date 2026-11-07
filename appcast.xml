@@ -6,29 +6,29 @@
         <description>Neueste Updates für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
-        <!-- Version 1.1.1 (Build 7) -->
+        <!-- Version 1.1.2 (Build 8) -->
         <item>
-            <title>Davlanggisch Docs Version 1.1.1</title>
+            <title>Davlanggisch Docs Version 1.1.2</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch Docs 1.1.1 (Build 7):</h2>
+                <h2>Neuheiten &amp; Fehlerbehebungen in Davlanggisch Docs 1.1.2 (Build 8):</h2>
                 <ul>
-                    <li><strong>Stabile Benutzeroberfläche &amp; Konto-Verwaltung:</strong> Vollständige Überprüfung aller Kontroller, Popover und Sitzungen. Saubere Trennung zwischen Gast- und Benutzerstatus mit dauerhaftem Sitzungscache.</li>
-                    <li><strong>Dynamische Gist-Token Datenbank:</strong> Automatischer Abruf des aktiven GitHub-Tokens aus dem sicheren Token-Gist (<code>bb3d97c220652d5207341b2a6b4b19af</code>), wodurch der Wörterbuch-Gist-Sync immer nahtlos funktioniert ohne Neuinstallation bei Token-Ablauf.</li>
-                    <li><strong>Kaya AI auf neueste Gemini 3.1 Modelle aktualisiert:</strong> Die Modell-Fehlermeldung zu veralteten Modellen wurde vollständig behoben. Kaya AI nutzt nun prioritär <code>gemini-3.1-flash-lite</code> und <code>gemini-3.1-pro-preview</code> für blitzschnelle und fehlerfreie Antworten.</li>
-                    <li><strong>9-Punkte-Menü (Waffle) &amp; Profilbild:</strong> Das 9-Punkte-Menü öffnet nun zuverlässig mit einem Klick und ermöglicht das direkte Öffnen des installierten Davlanggisch-Übersetzers, Kaya AI, Docs und Einstellungen. Das Profilbild öffnet zuverlässig die persönlichen Daten mit dauerhafter Sitzungsspeicherung.</li>
-                    <li><strong>DIN-A4 Editor Optimierungen:</strong> Reines, weißes Blatt bei leeren Dokumenten (Kopf- und Fußzeilen aktivieren sich erst bei Doppelklick). Fett-, Kursiv- und Unterstreichen-Schaltflächen lassen sich wieder sauber ein- und ausschalten (Toggle). Vollbild-Tastenkürzel (Fn + F / Ctrl + Cmd + F) sowie Drucken (Cmd + P) integriert.</li>
+                    <li><strong>GitHub Gist Export &amp; HTTP 401 Behebung:</strong> Der Fehler <code>HTTP 401</code> beim Klick auf <em>„In GitHub Gist exportieren“</em> wurde vollständig behoben. Das Laden des Live-Wörterbuchs erfolgt jetzt immer unauthentifiziert direkt über die öffentliche Schnittstelle bzw. Raw-URL ohne Token-Blockaden.</li>
+                    <li><strong>Intelligenter Token-Assistent &amp; Schnelleingabe:</strong> Falls ein GitHub-Token fehlt oder abgelaufen ist, öffnet sich automatisch ein klarer Dialog mit Direktauswahl zur Erstellung eines Tokens auf GitHub (<code>scopes=gist</code>) und Sofort-Synchronisation. Zudem kann der GitHub Gist Zugriffstoken jetzt direkt in den allgemeinen Einstellungen ohne geheimes Admin-Passwort eingetragen und überprüft werden.</li>
+                    <li><strong>Kaya AI auf neueste Gemini 3.1 Modelle aktualisiert:</strong> Alle Meldungen zu veralteten Modellen (wie <code>gemini-2.5-pro</code>) wurden eliminiert. Kaya nutzt jetzt standardmäßig <code>gemini-3.1-flash-lite</code> und <code>gemini-3.1-pro-preview</code> für sekundenschnelle Wort- und Layout-Vorschläge.</li>
+                    <li><strong>Stabile Benutzeroberfläche &amp; Konto-Verwaltung:</strong> Vollständige Überprüfung aller Kontroller, Popover und Sitzungen. Saubere Trennung zwischen Gast- und Benutzerstatus mit dauerhaftem Sitzungscache. 9-Punkte-Menü (Waffle) und Profilbild öffnen sofort.</li>
+                    <li><strong>DIN-A4 Editor Optimierungen:</strong> Reines, weißes Blatt bei leeren Dokumenten. Fett-, Kursiv- und Unterstreichen-Schaltflächen lassen sich sauber umschalten (Toggle). Vollbild-Tastenkürzel (<code>Fn + F</code> / <code>Ctrl + ⌘ + F</code>) sowie Drucken (<code>⌘ + P</code>) integriert.</li>
                     <li><strong>Linguistische Sprachregeln:</strong> Strikte Kleinschreibung in Davlanggisch (Schrift und Laut) sowie automatische Großschreibung von deutschen Nomen und Kleinschreibung von Verben/Adjektiven.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 07 Nov 2026 22:52:03 +0100</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <pubDate>Sat, 07 Nov 2026 23:50:08 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.1/DavlanggischDocs-1.1.1.dmg"
-                length="2413788"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.2/DavlanggischDocs-1.1.2.dmg"
+                length="2416126"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="ei9Idg9mSITWGv0XbQfZdkHzLRTbMJrQRJprSTQhZzdeYyRSN7eD962s8Z71HQvTMPA8k5UFPLSLflqZbfSeDQ==" />
+                sparkle:edSignature="g5Xnf2z4yGj8Y0VfwSpHxeX9xB1z+5QQeoh6JepDoUaRmTCBKpT178IcKZEGLSQtBS+EQ6YiotJxQAxignxqDQ==" />
         </item>
 
         <!-- Version 1.1.0 (Build 5) -->
@@ -52,7 +52,7 @@
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.1/DavlanggischDocs-1.1.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
                 length="2414057"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="vefr/pckyKXWR8sHNN9geC81TerPhF0oTgGA8tdHxsWewm2ez9yY4O5yxtLWs/mWXm601GPuJ242tGTY9uw+AA==" />
