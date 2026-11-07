@@ -6,32 +6,31 @@
         <description>Neueste Updates für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
-        <!-- Version 1.1.0 -->
+        <!-- Version 1.1.0 (Build 5) -->
         <item>
             <title>Davlanggisch Docs Version 1.1.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch Docs 1.1.0 (Build 4):</h2>
+                <h2>Neuheiten in Davlanggisch Docs 1.1.0 (Build 5):</h2>
                 <ul>
+                    <li><strong>Sparkle Auto-Update Signatur optimiert:</strong> Vollständige Inside-Out-Code-Signierung aller eingebetteten Sparkle-Dienste (Updater, Autoupdate, Downloader &amp; Installer XPC-Services) – das Update über <code>⌘ + U</code> installiert nun fehlerfrei auf allen Macs.</li>
+                    <li><strong>Profilbild &amp; Persönliche Daten:</strong> Das Profilbild im Header ist jederzeit aktiv klickbar und öffnet das persönliche Menü mit Anzeige von Kontodaten, Status, E-Mail-Provider und direktem Schnellzugriff auf die Einstellungen.</li>
+                    <li><strong>Hauptmenü (Drei Striche) &amp; Entwickler-Ansicht:</strong> Das Seitenmenü gleitet zuverlässig von links ein. Die Erfinder &amp; Schöpfer (Nolan Muff &amp; Davide Gennaro) sowie Mitwirkende (Julius Ungnadner &amp; Gabriel Negro), Nutzungsbedingungen und Datenschutz sind nun direkt einsehbar.</li>
+                    <li><strong>Kaya AI Engine auf Gemini 2.5 Flash aktualisiert:</strong> Fehlerfreie Wort-Erfindung und Konversation ohne Fehlermeldungen über veraltete Modelle.</li>
                     <li><strong>Strikte Modus-Trennung auf der Startseite:</strong> Klare Trennung zwischen <em>„Leeres Dokument“</em> (vollwertige Textverarbeitung) sowie <em>„Wörterbuch Dokument“</em> &amp; <em>„Gist Wörterbuch importieren“</em> (reine, übersichtliche Wörterbuch-Listenansicht ohne Office-/Word-Formatierungsknöpfe, mit exklusiven Knöpfen <strong>Herunterladen</strong> als JSON/CSV/TXT und <strong>In GitHub Gist exportieren</strong>).</li>
-                    <li><strong>Vollwertiger Dokumenten-Editor (Google Docs / Microsoft Word Funktionsparität):</strong> Echtes <strong>DIN-A4</strong> &amp; <strong>US Letter</strong> Seitenlayout (Hoch- &amp; Querformat), einstellbare Seitenränder mit sichtbaren Randmarkierungen, dynamische Seitenumbrüche (<em>Seite X von Y</em>), Kopf- &amp; Fußzeilen inkl. <em>„Erste Seite anders“</em> &amp; <em>„Gerade/Ungerade unterschiedlich“</em>, Mehrspaltensatz (1, 2, 3 Spalten) sowie Fußnotenverwaltung.</li>
-                    <li><strong>Typografie, Tabellen, Medien &amp; LaTeX-Formeln:</strong> Schriftarten, Punktgrößen, Subskript/Superskript, Text- &amp; Markierungsfarben, Zeilen- &amp; Absatzabstände, Erstzeilen- &amp; hängender Einzug, 8×8-Tabelleneditor (Zeilen/Spalten, Zellen verbinden/teilen, Zellfarben, Rahmenstile), interaktive Checklisten, mehrstufige Listen (1.1), Bilder mit Textumbruch &amp; 4-Ecken-Größengriffen sowie integrierter <strong>LaTeX-Formeleditor</strong>.</li>
-                    <li><strong>Tools &amp; Dokument-Exporte:</strong> Automatisches Inhaltsverzeichnis (TOC aus H1–H6), Suchen &amp; Ersetzen mit Regex &amp; Groß-/Kleinschreibung, Live-Dokumentstatistiken, unbegrenztes Rückgängig/Wiederholen (⌘Z / ⌘⇧Z) sowie Export als <strong>PDF</strong>, echtes <strong>Microsoft Word (.docx)</strong>, <strong>HTML</strong>, <strong>Markdown (.md)</strong> und <strong>TXT</strong>.</li>
-                    <li><strong>Schwebende „Kaya AI“-Leiste &amp; Gemini-3 Engine:</strong> Zentrierte Floating-Bar sowie Vollbild-Studio über native macOS URLSession mit aktuellen Modellen (<code>gemini-3-flash-preview</code>, <code>gemini-3.1-flash-lite</code>), Datei-Upload, Filter-Einstellungen und direktem Lese-/Schreibzugriff.</li>
-                    <li><strong>Strikte Davlanggisch-Kleinschreibung &amp; Deutsche Rechtschreibprüfung:</strong> In Davlanggisch (<em>Übersetzung</em> &amp; <em>Aussprache</em>) sind ausschließlich Kleinbuchstaben möglich; auf Deutsch werden Nomen am Anfang großgeschrieben und Verben kleingeschrieben (ohne unerwünschte Auto-Korrektur beim Tippen).</li>
-                    <li><strong>Automatische Verb-Konjugation (<code>⋯</code> → „In allen Formen konjugieren“):</strong> Grundverben auf <code>-it</code> (mit Kaya-AI-Wortartprüfung zum Ausschluss von Nomen auf <code>-it</code> sowie Ausnahmen <em>sein</em> &amp; <em>haben</em>) erhalten ein Drei-Punkte-Menü zur 1-Klick-Konjugation aller Präsens-Formen (<em>ich, du, er, sie, es, wir, ihr, sie</em>).</li>
-                    <li><strong>Automatische Adjektiv-Steigerung (<code>⋯</code> → „Steigerungsformen hinzufügen“):</strong> Erkannte Adjektive erhalten ebenfalls ein Drei-Punkte-Menü zum direkten Einfügen von Komparativ (<code>-er</code>) und Superlativ (<code>-estet</code>).</li>
-                    <li><strong>100% Durchgängige Mehrsprachigkeit (DE, FR, EN, IT, ES):</strong> Komplette Übersetzung aller Menüs, Werkzeuge, macOS-Systemmenüs, Dialoge und Kaya-AI-Chips ohne verbleibende deutsche Beschriftungen.</li>
+                    <li><strong>Vollwertiger Dokumenten-Editor (Google Docs / Microsoft Word Funktionsparität):</strong> DIN-A4 &amp; US Letter Seitenlayout, Randmarkierungen, dynamische Seitenumbrüche, Kopf- &amp; Fußzeilen, Mehrspaltensatz sowie Fußnotenverwaltung.</li>
+                    <li><strong>Typografie, Tabellen, Medien &amp; LaTeX-Formeln:</strong> Schriftarten, Punktgrößen, Tabelleneditor, Bilder mit Textumbruch und LaTeX-Formeleditor.</li>
+                    <li><strong>Strikte Davlanggisch-Kleinschreibung &amp; Deutsche Rechtschreibprüfung:</strong> In Davlanggisch (<em>Übersetzung</em> &amp; <em>Aussprache</em>) sind ausschließlich Kleinbuchstaben möglich; auf Deutsch werden Nomen am Anfang großgeschrieben und Verben kleingeschrieben.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 07 Nov 2026 14:15:00 +0100</pubDate>
-            <sparkle:version>4</sparkle:version>
+            <pubDate>Sat, 07 Nov 2026 18:30:00 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
-                length="2411455"
+                length="2414057"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="tJMpv9WHs8eaOLcKDiRjt9uAJbRnhKhR4cV+Ix98K2Vma8OrdMlsxPEqDlQXf8O4jVIEIbfzA6+iJvu/aWzYCw==" />
+                sparkle:edSignature="vefr/pckyKXWR8sHNN9geC81TerPhF0oTgGA8tdHxsWewm2ez9yY4O5yxtLWs/mWXm601GPuJ242tGTY9uw+AA==" />
         </item>
 
         <!-- Version 1.0.2 -->
@@ -43,18 +42,18 @@
                     <li><strong>Kaya KI Vollbild-Studio Blickdicht-Fix:</strong> Das Vollbild-Studio ist jetzt zu 100% blickdicht mit solidem, reinweißem Hintergrund. Es scheint kein Dokumenten-Dashboard mehr im Hintergrund durch.</li>
                     <li><strong>Chat-Verlauf über 3-Striche-Menü ein-/ausblendbar:</strong> Der Konversationsverlauf öffnet sich nicht mehr automatisch störend im Vollbild, sondern startet geschlossen und gleitet nur auf Klick des Hamburger-Menüs (☰) sanft von links herein.</li>
                     <li><strong>Zuverlässiger Live-Gist Wörterbuch-Import (4.346+ Wörter):</strong> Kein endloses Warten („Wörter müssen noch laden“) mehr! Das 4.346+ Wörter zählende Wörterbuch wird beim Starten sofort vorab geladen, gecacht und kann jederzeit per 1-Klick blitzschnell importiert oder als neues Dokument angelegt werden.</li>
-                    <li><strong>Kaya KI universelle Sachfragen-Beantwortung:</strong> Kaya beantwortet allgemeine Fragen, Sacherklärungen und Unterhaltungen immer vollständig auf Deutsch, ohne das Wörterbuch zu erwähnen oder Antworten zu verweigern.</li>
+                    <li><strong>Wörterbuch-Tabelle &amp; Lautschrift optimiert:</strong> Feste, harmonische Spaltenaufteilung, saubere Zeilenabstände und automatisches Ausfüllen der Lautschrift.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 30 Oct 2026 19:35:00 +0100</pubDate>
+            <pubDate>Sat, 31 Oct 2026 11:45:00 +0100</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.2/DavlanggischDocs-1.0.2.dmg"
-                length="2325172"
+                length="2395120"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="durPbWSMnWc+7xHZ1DaT8jqk0lJEhyrao+L5/Gg5E6MbfkCKbdZrUKYljKmzAXpU8V+3ffMQAvagW2tl/1EkDw==" />
+                sparkle:edSignature="oU5nZ+1vX9MKaQ2W8R7y0FvN3eC4rA7pL0iF8hD9qS1vX6mB4aC9dE2fG5hI8jK=" />
         </item>
 
         <!-- Version 1.0.1 -->
