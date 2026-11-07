@@ -6,6 +6,31 @@
         <description>Neueste Updates für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
+        <!-- Version 1.1.1 (Build 7) -->
+        <item>
+            <title>Davlanggisch Docs Version 1.1.1</title>
+            <description><![CDATA[
+                <h2>Neuheiten in Davlanggisch Docs 1.1.1 (Build 7):</h2>
+                <ul>
+                    <li><strong>Stabile Benutzeroberfläche &amp; Konto-Verwaltung:</strong> Vollständige Überprüfung aller Kontroller, Popover und Sitzungen. Saubere Trennung zwischen Gast- und Benutzerstatus mit dauerhaftem Sitzungscache.</li>
+                    <li><strong>Dynamische Gist-Token Datenbank:</strong> Automatischer Abruf des aktiven GitHub-Tokens aus dem sicheren Token-Gist (<code>bb3d97c220652d5207341b2a6b4b19af</code>), wodurch der Wörterbuch-Gist-Sync immer nahtlos funktioniert ohne Neuinstallation bei Token-Ablauf.</li>
+                    <li><strong>Kaya AI auf neueste Gemini 3.1 Modelle aktualisiert:</strong> Die Modell-Fehlermeldung zu veralteten Modellen wurde vollständig behoben. Kaya AI nutzt nun prioritär <code>gemini-3.1-flash-lite</code> und <code>gemini-3.1-pro-preview</code> für blitzschnelle und fehlerfreie Antworten.</li>
+                    <li><strong>9-Punkte-Menü (Waffle) &amp; Profilbild:</strong> Das 9-Punkte-Menü öffnet nun zuverlässig mit einem Klick und ermöglicht das direkte Öffnen des installierten Davlanggisch-Übersetzers, Kaya AI, Docs und Einstellungen. Das Profilbild öffnet zuverlässig die persönlichen Daten mit dauerhafter Sitzungsspeicherung.</li>
+                    <li><strong>DIN-A4 Editor Optimierungen:</strong> Reines, weißes Blatt bei leeren Dokumenten (Kopf- und Fußzeilen aktivieren sich erst bei Doppelklick). Fett-, Kursiv- und Unterstreichen-Schaltflächen lassen sich wieder sauber ein- und ausschalten (Toggle). Vollbild-Tastenkürzel (Fn + F / Ctrl + Cmd + F) sowie Drucken (Cmd + P) integriert.</li>
+                    <li><strong>Linguistische Sprachregeln:</strong> Strikte Kleinschreibung in Davlanggisch (Schrift und Laut) sowie automatische Großschreibung von deutschen Nomen und Kleinschreibung von Verben/Adjektiven.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 07 Nov 2026 22:52:03 +0100</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.1/DavlanggischDocs-1.1.1.dmg"
+                length="2413788"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="ei9Idg9mSITWGv0XbQfZdkHzLRTbMJrQRJprSTQhZzdeYyRSN7eD962s8Z71HQvTMPA8k5UFPLSLflqZbfSeDQ==" />
+        </item>
+
         <!-- Version 1.1.0 (Build 5) -->
         <item>
             <title>Davlanggisch Docs Version 1.1.0</title>
@@ -27,7 +52,7 @@
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.1/DavlanggischDocs-1.1.0.dmg"
                 length="2414057"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="vefr/pckyKXWR8sHNN9geC81TerPhF0oTgGA8tdHxsWewm2ez9yY4O5yxtLWs/mWXm601GPuJ242tGTY9uw+AA==" />
@@ -42,18 +67,18 @@
                     <li><strong>Kaya KI Vollbild-Studio Blickdicht-Fix:</strong> Das Vollbild-Studio ist jetzt zu 100% blickdicht mit solidem, reinweißem Hintergrund. Es scheint kein Dokumenten-Dashboard mehr im Hintergrund durch.</li>
                     <li><strong>Chat-Verlauf über 3-Striche-Menü ein-/ausblendbar:</strong> Der Konversationsverlauf öffnet sich nicht mehr automatisch störend im Vollbild, sondern startet geschlossen und gleitet nur auf Klick des Hamburger-Menüs (☰) sanft von links herein.</li>
                     <li><strong>Zuverlässiger Live-Gist Wörterbuch-Import (4.346+ Wörter):</strong> Kein endloses Warten („Wörter müssen noch laden“) mehr! Das 4.346+ Wörter zählende Wörterbuch wird beim Starten sofort vorab geladen, gecacht und kann jederzeit per 1-Klick blitzschnell importiert oder als neues Dokument angelegt werden.</li>
-                    <li><strong>Wörterbuch-Tabelle &amp; Lautschrift optimiert:</strong> Feste, harmonische Spaltenaufteilung, saubere Zeilenabstände und automatisches Ausfüllen der Lautschrift.</li>
+                    <li><strong>Kaya KI universelle Sachfragen-Beantwortung:</strong> Kaya beantwortet allgemeine Fragen, Sacherklärungen und Unterhaltungen immer vollständig auf Deutsch, ohne das Wörterbuch zu erwähnen oder Antworten zu verweigern.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 31 Oct 2026 11:45:00 +0100</pubDate>
+            <pubDate>Fri, 30 Oct 2026 19:35:00 +0100</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.2/DavlanggischDocs-1.0.2.dmg"
-                length="2395120"
+                length="2325172"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="oU5nZ+1vX9MKaQ2W8R7y0FvN3eC4rA7pL0iF8hD9qS1vX6mB4aC9dE2fG5hI8jK=" />
+                sparkle:edSignature="durPbWSMnWc+7xHZ1DaT8jqk0lJEhyrao+L5/Gg5E6MbfkCKbdZrUKYljKmzAXpU8V+3ffMQAvagW2tl/1EkDw==" />
         </item>
 
         <!-- Version 1.0.1 -->
