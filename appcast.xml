@@ -6,6 +6,34 @@
         <description>Neueste Updates für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
+        <!-- Version 1.1.0 -->
+        <item>
+            <title>Davlanggisch Docs Version 1.1.0</title>
+            <description><![CDATA[
+                <h2>Neuheiten in Davlanggisch Docs 1.1.0 (Build 4):</h2>
+                <ul>
+                    <li><strong>Strikte Modus-Trennung auf der Startseite:</strong> Klare Trennung zwischen <em>„Leeres Dokument“</em> (vollwertige Textverarbeitung) sowie <em>„Wörterbuch Dokument“</em> &amp; <em>„Gist Wörterbuch importieren“</em> (reine, übersichtliche Wörterbuch-Listenansicht ohne Office-/Word-Formatierungsknöpfe, mit exklusiven Knöpfen <strong>Herunterladen</strong> als JSON/CSV/TXT und <strong>In GitHub Gist exportieren</strong>).</li>
+                    <li><strong>Vollwertiger Dokumenten-Editor (Google Docs / Microsoft Word Funktionsparität):</strong> Echtes <strong>DIN-A4</strong> &amp; <strong>US Letter</strong> Seitenlayout (Hoch- &amp; Querformat), einstellbare Seitenränder mit sichtbaren Randmarkierungen, dynamische Seitenumbrüche (<em>Seite X von Y</em>), Kopf- &amp; Fußzeilen inkl. <em>„Erste Seite anders“</em> &amp; <em>„Gerade/Ungerade unterschiedlich“</em>, Mehrspaltensatz (1, 2, 3 Spalten) sowie Fußnotenverwaltung.</li>
+                    <li><strong>Typografie, Tabellen, Medien &amp; LaTeX-Formeln:</strong> Schriftarten, Punktgrößen, Subskript/Superskript, Text- &amp; Markierungsfarben, Zeilen- &amp; Absatzabstände, Erstzeilen- &amp; hängender Einzug, 8×8-Tabelleneditor (Zeilen/Spalten, Zellen verbinden/teilen, Zellfarben, Rahmenstile), interaktive Checklisten, mehrstufige Listen (1.1), Bilder mit Textumbruch &amp; 4-Ecken-Größengriffen sowie integrierter <strong>LaTeX-Formeleditor</strong>.</li>
+                    <li><strong>Tools &amp; Dokument-Exporte:</strong> Automatisches Inhaltsverzeichnis (TOC aus H1–H6), Suchen &amp; Ersetzen mit Regex &amp; Groß-/Kleinschreibung, Live-Dokumentstatistiken, unbegrenztes Rückgängig/Wiederholen (⌘Z / ⌘⇧Z) sowie Export als <strong>PDF</strong>, echtes <strong>Microsoft Word (.docx)</strong>, <strong>HTML</strong>, <strong>Markdown (.md)</strong> und <strong>TXT</strong>.</li>
+                    <li><strong>Schwebende „Kaya AI“-Leiste &amp; Gemini-3 Engine:</strong> Zentrierte Floating-Bar sowie Vollbild-Studio über native macOS URLSession mit aktuellen Modellen (<code>gemini-3-flash-preview</code>, <code>gemini-3.1-flash-lite</code>), Datei-Upload, Filter-Einstellungen und direktem Lese-/Schreibzugriff.</li>
+                    <li><strong>Strikte Davlanggisch-Kleinschreibung &amp; Deutsche Rechtschreibprüfung:</strong> In Davlanggisch (<em>Übersetzung</em> &amp; <em>Aussprache</em>) sind ausschließlich Kleinbuchstaben möglich; auf Deutsch werden Nomen am Anfang großgeschrieben und Verben kleingeschrieben (ohne unerwünschte Auto-Korrektur beim Tippen).</li>
+                    <li><strong>Automatische Verb-Konjugation (<code>⋯</code> → „In allen Formen konjugieren“):</strong> Grundverben auf <code>-it</code> (mit Kaya-AI-Wortartprüfung zum Ausschluss von Nomen auf <code>-it</code> sowie Ausnahmen <em>sein</em> &amp; <em>haben</em>) erhalten ein Drei-Punkte-Menü zur 1-Klick-Konjugation aller Präsens-Formen (<em>ich, du, er, sie, es, wir, ihr, sie</em>).</li>
+                    <li><strong>Automatische Adjektiv-Steigerung (<code>⋯</code> → „Steigerungsformen hinzufügen“):</strong> Erkannte Adjektive erhalten ebenfalls ein Drei-Punkte-Menü zum direkten Einfügen von Komparativ (<code>-er</code>) und Superlativ (<code>-estet</code>).</li>
+                    <li><strong>100% Durchgängige Mehrsprachigkeit (DE, FR, EN, IT, ES):</strong> Komplette Übersetzung aller Menüs, Werkzeuge, macOS-Systemmenüs, Dialoge und Kaya-AI-Chips ohne verbleibende deutsche Beschriftungen.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 07 Nov 2026 14:15:00 +0100</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
+                length="2411455"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="tJMpv9WHs8eaOLcKDiRjt9uAJbRnhKhR4cV+Ix98K2Vma8OrdMlsxPEqDlQXf8O4jVIEIbfzA6+iJvu/aWzYCw==" />
+        </item>
+
         <!-- Version 1.0.2 -->
         <item>
             <title>Davlanggisch Docs Version 1.0.2</title>
@@ -71,17 +99,18 @@
                     <li><strong>✦ Kaya KI-Studio:</strong> Intelligente Wortschöpfung nach linguistischen Davlanggisch-Regeln mit 1-Klick-Übernahme ins Dokument. Multi-Modell Fallback (gemini-3-flash-preview, gemini-3.1-flash-lite) über native macOS URLSession.</li>
                     <li><strong>Konto &amp; Profil-Lightbox:</strong> Vollständiges Anmeldesystem (E-Mail/Passwort, Google, Microsoft) mit Profilbild-Großansicht (Lightbox), Account-Wechsler und automatischer Sitzungssynchronisation.</li>
                     <li><strong>Eigenständiges App-Icon:</strong> Einzigartiges Apple-Squircle-Design für macOS Dock und Finder.</li>
+                    <li><strong>Sparkle 2 Auto-Updater:</strong> Automatische Hintergrund-Updates direkt über GitHub Releases.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 30 Oct 2026 15:45:00 +0100</pubDate>
+            <pubDate>Fri, 30 Oct 2026 17:30:00 +0100</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.0/DavlanggischDocs-1.0.0.dmg"
-                length="2325983"
+                length="2070508"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="Gf+M205H9p4w/Vz85oO66wA4x8sYvQk1474/d3Z9eQ5w18bQ2y1v563==" />
+                sparkle:edSignature="Xlh+iL1xO+yp5ru+LqSq86L2faj9B437hxQf+IEbggVIus9s8LbtAEJfbTmusmn9GtjH8ajgYvPYSaVonVAECQ==" />
         </item>
     </channel>
 </rss>
