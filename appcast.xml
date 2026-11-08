@@ -6,12 +6,14 @@
         <description>Neueste Updates für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
-        <!-- ==================== VERSION 1.2.0 (BUILD 10) ==================== -->
+        <!-- ==================== VERSION 1.2.0 (BUILD 11) ==================== -->
         <item>
             <title>Davlanggisch Docs Version 1.2.0</title>
             <description><![CDATA[
-                <h2>Neuheiten &amp; Verbesserungen in Davlanggisch Docs 1.2.0 (Build 10):</h2>
+                <h2>Neuheiten &amp; Verbesserungen in Davlanggisch Docs 1.2.0 (Build 11):</h2>
                 <ul>
+                    <li><strong>App-Stabilität &amp; Startvorgang:</strong> Fehlerbehebung beim Starten der macOS Applikation – die App öffnet sich nun sofort und läuft zuverlässig.</li>
+                    <li><strong>Live-Benachrichtigungen via Gist:</strong> Direkte Anzeige von aktuellen Mitteilungen aus der Gist-Datenbank oben rechts mit „Gelesen“-Bestätigung.</li>
                     <li><strong>9-Punkte-Menü (Waffle Launcher):</strong> Schneller und zuverlässiger Wechsel zwischen Davlanggisch Docs, der Übersetzer-Applikation (inkl. Download-Fallback), dem Kaya AI Vollbild-Studio und den Einstellungen.</li>
                     <li><strong>Profilbild &amp; Authentifizierungs-Status:</strong> Im abgemeldeten Zustand erscheint nur der Anmelde-Button oben rechts. Nach dem Anmelden wird das persönliche Profilbild eingeblendet, welches das Menü für Persönliche Daten, Dokumentenverlauf, Newsletter, Einstellungen und Abmelden öffnet.</li>
                     <li><strong>Native macOS Spracheingabe:</strong> Vollständige Integration von Speech &amp; AVFoundation zur präzisen Diktat-Erkennung im Dokument und für Sprachbefehle an Kaya AI mit Mikrofon- &amp; Stopp-Quadrat-Schaltfläche.</li>
@@ -20,15 +22,15 @@
                     <li><strong>Strenges Zero-Emoji-Design:</strong> Saubere Vektor-Icons und typografische Gestaltung ohne bunte Emojis.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 08 Nov 2026 14:27:14 +0100</pubDate>
-            <sparkle:version>10</sparkle:version>
+            <pubDate>Sun, 08 Nov 2026 15:53:37 +0100</pubDate>
+            <sparkle:version>11</sparkle:version>
             <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.2.0/DavlanggischDocs-1.2.0.dmg"
-                length="2435316"
+                length="2445533"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="G6u/ANZQrBvwHRG5ezGQWDfrS09bm61iJ70raTVlgE8TYZDRkdGIl7Ia2zpgcP7StIw/OXubKTAFW6q58bqxAg==" />
+                sparkle:edSignature="F5lIw3P6oxkkNykGAVHCftucWU5ekaTDvpik7D6rrhnIBm3iLya0AXkaxftKyIOO32HpO+i1hFCG695apJQwAQ==" />
         </item>
 
         <!-- ==================== VERSION 1.1.2 (BUILD 9) ==================== -->
