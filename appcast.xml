@@ -6,117 +6,135 @@
         <description>Neueste Updates für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
-        <!-- ==================== VERSION 1.2.0 (BUILD 11) ==================== -->
-        <item>
-            <title>Davlanggisch Docs Version 1.2.0</title>
-            <description><![CDATA[
-                <h2>Neuheiten &amp; Verbesserungen in Davlanggisch Docs 1.2.0 (Build 11):</h2>
-                <ul>
-                    <li><strong>App-Stabilität &amp; Startvorgang:</strong> Fehlerbehebung beim Starten der macOS Applikation – die App öffnet sich nun sofort und läuft zuverlässig.</li>
-                    <li><strong>Live-Benachrichtigungen via Gist:</strong> Direkte Anzeige von aktuellen Mitteilungen aus der Gist-Datenbank oben rechts mit „Gelesen“-Bestätigung.</li>
-                    <li><strong>9-Punkte-Menü (Waffle Launcher):</strong> Schneller und zuverlässiger Wechsel zwischen Davlanggisch Docs, der Übersetzer-Applikation (inkl. Download-Fallback), dem Kaya AI Vollbild-Studio und den Einstellungen.</li>
-                    <li><strong>Profilbild &amp; Authentifizierungs-Status:</strong> Im abgemeldeten Zustand erscheint nur der Anmelde-Button oben rechts. Nach dem Anmelden wird das persönliche Profilbild eingeblendet, welches das Menü für Persönliche Daten, Dokumentenverlauf, Newsletter, Einstellungen und Abmelden öffnet.</li>
-                    <li><strong>Native macOS Spracheingabe:</strong> Vollständige Integration von Speech &amp; AVFoundation zur präzisen Diktat-Erkennung im Dokument und für Sprachbefehle an Kaya AI mit Mikrofon- &amp; Stopp-Quadrat-Schaltfläche.</li>
-                    <li><strong>Kaya AI mit Gemini 3.1:</strong> Modernste Google Gemini 3.1 Pro &amp; Flash Preview Modelle für intelligente Grammatik- und Wörterbucherweiterungen.</li>
-                    <li><strong>Gehärtete Quellcode-Sicherheit:</strong> Vollständige Eliminierung von Klartext-Tokens und Datenbank-Links im Browser-Inspektor.</li>
-                    <li><strong>Strenges Zero-Emoji-Design:</strong> Saubere Vektor-Icons und typografische Gestaltung ohne bunte Emojis.</li>
-                </ul>
-            ]]></description>
-            <pubDate>Sun, 08 Nov 2026 15:53:37 +0100</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.2.0/DavlanggischDocs-1.2.0.dmg"
-                length="2445533"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="F5lIw3P6oxkkNykGAVHCftucWU5ekaTDvpik7D6rrhnIBm3iLya0AXkaxftKyIOO32HpO+i1hFCG695apJQwAQ==" />
-        </item>
-
-        <!-- ==================== VERSION 1.1.2 (BUILD 9) ==================== -->
+        <!-- Version 1.1.2 (Build 8) -->
         <item>
             <title>Davlanggisch Docs Version 1.1.2</title>
             <description><![CDATA[
-                <h2>Neuheiten &amp; Fehlerbehebungen in Davlanggisch Docs 1.1.2 (Build 9):</h2>
+                <h2>Neuheiten &amp; Fehlerbehebungen in Davlanggisch Docs 1.1.2 (Build 8):</h2>
                 <ul>
-                    <li><strong>GitHub Gist Export &amp; HTTP 401 Behebung:</strong> Der Fehler HTTP 401 beim Klick auf „In GitHub Gist exportieren“ wurde behoben.</li>
-                    <li><strong>Intelligente Token-Normalisierung:</strong> Schutz vor ungültigen Token-Formaten und Token-Eingabe-Assistent.</li>
-                    <li><strong>Kaya AI Modelle aktualisiert:</strong> Umstellung auf Gemini 3 Modelle.</li>
+                    <li><strong>GitHub Gist Export &amp; HTTP 401 Behebung:</strong> Der Fehler <code>HTTP 401</code> beim Klick auf <em>„In GitHub Gist exportieren“</em> wurde vollständig behoben. Das Laden des Live-Wörterbuchs erfolgt jetzt immer unauthentifiziert direkt über die öffentliche Schnittstelle bzw. Raw-URL ohne Token-Blockaden.</li>
+                    <li><strong>Intelligenter Token-Assistent &amp; Schnelleingabe:</strong> Falls ein GitHub-Token fehlt oder abgelaufen ist, öffnet sich automatisch ein klarer Dialog mit Direktauswahl zur Erstellung eines Tokens auf GitHub (<code>scopes=gist</code>) und Sofort-Synchronisation. Zudem kann der GitHub Gist Zugriffstoken jetzt direkt in den allgemeinen Einstellungen ohne geheimes Admin-Passwort eingetragen und überprüft werden.</li>
+                    <li><strong>Kaya AI auf neueste Gemini 3.1 Modelle aktualisiert:</strong> Alle Meldungen zu veralteten Modellen (wie <code>gemini-2.5-pro</code>) wurden eliminiert. Kaya nutzt jetzt standardmäßig <code>gemini-3.1-flash-lite</code> und <code>gemini-3.1-pro-preview</code> für sekundenschnelle Wort- und Layout-Vorschläge.</li>
+                    <li><strong>Stabile Benutzeroberfläche &amp; Konto-Verwaltung:</strong> Vollständige Überprüfung aller Kontroller, Popover und Sitzungen. Saubere Trennung zwischen Gast- und Benutzerstatus mit dauerhaftem Sitzungscache. 9-Punkte-Menü (Waffle) und Profilbild öffnen sofort.</li>
+                    <li><strong>DIN-A4 Editor Optimierungen:</strong> Reines, weißes Blatt bei leeren Dokumenten. Fett-, Kursiv- und Unterstreichen-Schaltflächen lassen sich sauber umschalten (Toggle). Vollbild-Tastenkürzel (<code>Fn + F</code> / <code>Ctrl + ⌘ + F</code>) sowie Drucken (<code>⌘ + P</code>) integriert.</li>
+                    <li><strong>Linguistische Sprachregeln:</strong> Strikte Kleinschreibung in Davlanggisch (Schrift und Laut) sowie automatische Großschreibung von deutschen Nomen und Kleinschreibung von Verben/Adjektiven.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 08 Nov 2026 10:15:00 +0100</pubDate>
-            <sparkle:version>9</sparkle:version>
+            <pubDate>Sat, 07 Nov 2026 23:50:08 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.2/DavlanggischDocs-1.1.2.dmg"
-                length="2438512"
+                length="2416126"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5==" />
+                sparkle:edSignature="g5Xnf2z4yGj8Y0VfwSpHxeX9xB1z+5QQeoh6JepDoUaRmTCBKpT178IcKZEGLSQtBS+EQ6YiotJxQAxignxqDQ==" />
         </item>
 
-        <!-- ==================== VERSION 1.1.1 (BUILD 8) ==================== -->
-        <item>
-            <title>Davlanggisch Docs Version 1.1.1</title>
-            <description><![CDATA[
-                <h2>Neuheiten in Version 1.1.1 (Build 8):</h2>
-                <ul>
-                    <li>Fehlerbehebungen bei der Live-Aktualisierung des Wörterbuchs.</li>
-                    <li>Erweiterte A4-Druck- und Exportvorschau.</li>
-                </ul>
-            ]]></description>
-            <pubDate>Sat, 07 Nov 2026 21:00:00 +0100</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.1/DavlanggischDocs-1.1.1.dmg"
-                length="2430120"
-                type="application/x-apple-diskimage"
-                sparkle:edSignature="x9Y8z7A6b5C4d3E2f1G0h9I8j7K6l5M4n3O2p1Q0r9S8t7U6v5W4x3Y2z1A0b9C8d7E6f5G4h3I2j1K0l9M8n7==" />
-        </item>
-
-        <!-- ==================== VERSION 1.1.0 (BUILD 7) ==================== -->
+        <!-- Version 1.1.0 (Build 5) -->
         <item>
             <title>Davlanggisch Docs Version 1.1.0</title>
             <description><![CDATA[
-                <h2>Großes Update: Davlanggisch Docs 1.1.0 (Build 7)</h2>
+                <h2>Neuheiten in Davlanggisch Docs 1.1.0 (Build 5):</h2>
                 <ul>
-                    <li>Integration des neuen Tabellen- und Textverarbeitungs-Modus.</li>
-                    <li>Automatische Silbentrennung und Inhaltsverzeichnis-Erstellung (TOC).</li>
-                    <li>Sparkle 2 Auto-Update-Integration.</li>
+                    <li><strong>Sparkle Auto-Update Signatur optimiert:</strong> Vollständige Inside-Out-Code-Signierung aller eingebetteten Sparkle-Dienste (Updater, Autoupdate, Downloader &amp; Installer XPC-Services) – das Update über <code>⌘ + U</code> installiert nun fehlerfrei auf allen Macs.</li>
+                    <li><strong>Profilbild &amp; Persönliche Daten:</strong> Das Profilbild im Header ist jederzeit aktiv klickbar und öffnet das persönliche Menü mit Anzeige von Kontodaten, Status, E-Mail-Provider und direktem Schnellzugriff auf die Einstellungen.</li>
+                    <li><strong>Hauptmenü (Drei Striche) &amp; Entwickler-Ansicht:</strong> Das Seitenmenü gleitet zuverlässig von links ein. Die Erfinder &amp; Schöpfer (Nolan Muff &amp; Davide Gennaro) sowie Mitwirkende (Julius Ungnadner &amp; Gabriel Negro), Nutzungsbedingungen und Datenschutz sind nun direkt einsehbar.</li>
+                    <li><strong>Kaya AI Engine auf Gemini 2.5 Flash aktualisiert:</strong> Fehlerfreie Wort-Erfindung und Konversation ohne Fehlermeldungen über veraltete Modelle.</li>
+                    <li><strong>Strikte Modus-Trennung auf der Startseite:</strong> Klare Trennung zwischen <em>„Leeres Dokument“</em> (vollwertige Textverarbeitung) sowie <em>„Wörterbuch Dokument“</em> &amp; <em>„Gist Wörterbuch importieren“</em> (reine, übersichtliche Wörterbuch-Listenansicht ohne Office-/Word-Formatierungsknöpfe, mit exklusiven Knöpfen <strong>Herunterladen</strong> als JSON/CSV/TXT und <strong>In GitHub Gist exportieren</strong>).</li>
+                    <li><strong>Vollwertiger Dokumenten-Editor (Google Docs / Microsoft Word Funktionsparität):</strong> DIN-A4 &amp; US Letter Seitenlayout, Randmarkierungen, dynamische Seitenumbrüche, Kopf- &amp; Fußzeilen, Mehrspaltensatz sowie Fußnotenverwaltung.</li>
+                    <li><strong>Typografie, Tabellen, Medien &amp; LaTeX-Formeln:</strong> Schriftarten, Punktgrößen, Tabelleneditor, Bilder mit Textumbruch und LaTeX-Formeleditor.</li>
+                    <li><strong>Strikte Davlanggisch-Kleinschreibung &amp; Deutsche Rechtschreibprüfung:</strong> In Davlanggisch (<em>Übersetzung</em> &amp; <em>Aussprache</em>) sind ausschließlich Kleinbuchstaben möglich; auf Deutsch werden Nomen am Anfang großgeschrieben und Verben kleingeschrieben.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 06 Nov 2026 18:30:00 +0100</pubDate>
-            <sparkle:version>7</sparkle:version>
+            <pubDate>Sat, 07 Nov 2026 18:30:00 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
-                length="2419850"
+                length="2414057"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="k1L2m3N4o5P6q7R8s9T0u1V2w3X4y5Z6a7B8c9D0e1F2g3H4i5J6k7L8m9N0o1P2q3R4s5T6u7V8w9X0y1Z2a3==" />
+                sparkle:edSignature="vefr/pckyKXWR8sHNN9geC81TerPhF0oTgGA8tdHxsWewm2ez9yY4O5yxtLWs/mWXm601GPuJ242tGTY9uw+AA==" />
         </item>
 
-        <!-- ==================== VERSION 1.0.0 (BUILD 1) ==================== -->
+        <!-- Version 1.0.2 -->
+        <item>
+            <title>Davlanggisch Docs Version 1.0.2</title>
+            <description><![CDATA[
+                <h2>Neuheiten in Davlanggisch Docs 1.0.2 (Build 3):</h2>
+                <ul>
+                    <li><strong>Kaya KI Vollbild-Studio Blickdicht-Fix:</strong> Das Vollbild-Studio ist jetzt zu 100% blickdicht mit solidem, reinweißem Hintergrund. Es scheint kein Dokumenten-Dashboard mehr im Hintergrund durch.</li>
+                    <li><strong>Chat-Verlauf über 3-Striche-Menü ein-/ausblendbar:</strong> Der Konversationsverlauf öffnet sich nicht mehr automatisch störend im Vollbild, sondern startet geschlossen und gleitet nur auf Klick des Hamburger-Menüs (☰) sanft von links herein.</li>
+                    <li><strong>Zuverlässiger Live-Gist Wörterbuch-Import (4.346+ Wörter):</strong> Kein endloses Warten („Wörter müssen noch laden“) mehr! Das 4.346+ Wörter zählende Wörterbuch wird beim Starten sofort vorab geladen, gecacht und kann jederzeit per 1-Klick blitzschnell importiert oder als neues Dokument angelegt werden.</li>
+                    <li><strong>Kaya KI universelle Sachfragen-Beantwortung:</strong> Kaya beantwortet allgemeine Fragen, Sacherklärungen und Unterhaltungen immer vollständig auf Deutsch, ohne das Wörterbuch zu erwähnen oder Antworten zu verweigern.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 30 Oct 2026 19:35:00 +0100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.2/DavlanggischDocs-1.0.2.dmg"
+                length="2325172"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="durPbWSMnWc+7xHZ1DaT8jqk0lJEhyrao+L5/Gg5E6MbfkCKbdZrUKYljKmzAXpU8V+3ffMQAvagW2tl/1EkDw==" />
+        </item>
+
+        <!-- Version 1.0.1 -->
+        <item>
+            <title>Davlanggisch Docs Version 1.0.1</title>
+            <description><![CDATA[
+                <h2>Neuheiten in Davlanggisch Docs 1.0.1 (Build 2):</h2>
+                <ul>
+                    <li><strong>Vergangenheits-Wörter (Präteritum) Blockade:</strong> Vergangenheitsformen (-ate, -ates, -atet, -at sowie unregelmäßige Formen wie hitate, albat oder deutsche Präterita) werden im Wörterbuch nicht mehr akzeptiert, da Wörterbucheinträge reine Gegenwarts-/Grundformen sein müssen.</li>
+                    <li><strong>Duplikat-Prüfung gegen Live-Gist &amp; Dokument:</strong> Wörter, die bereits im 4.346+ Wörter zählenden Live-Gist oder im Dokument existieren, werden automatisch abgelehnt und rot hervorgehoben.</li>
+                    <li><strong>Direkter Live-Gist Wörterbuch-Import:</strong> Neues Dokument mit allen 4.346+ Wörtern direkt per 1-Klick auf dem Dashboard oder im Editor importieren.</li>
+                    <li><strong>Intelligenter Smart-Paste Parser:</strong> Kopierte Wortlisten mit oder ohne Aussprache (Tabs, Pipes, Doppelpunkte, JSON) werden automatisch analysiert und in die richtigen Tabellenspalten eingefügt.</li>
+                    <li><strong>Kaya KI mit zwei Betriebsmodi:</strong>
+                        <ul>
+                            <li><em>Vollbild-Modus (Dashboard):</em> Vollwertiges KI-Studio mit Konversationsverlauf (synchronisiert mit dem Davlanggisch-Übersetzer) und neuem Chat.</li>
+                            <li><em>Side-Panel Modus (Im Dokument):</em> Rechts andockendes Begleitfenster mit In-Dokument-Suche und 1-Klick-Wortübernahme.</li>
+                        </ul>
+                    </li>
+                    <li><strong>App-Updates über Kaya:</strong> Kaya kann auf Sprachbefehl („App updaten“, „Nach Updates suchen“) die automatische Sparkle-Aktualisierung anstoßen.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 30 Oct 2026 18:15:00 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.1/DavlanggischDocs-1.0.1.dmg"
+                length="2326211"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="rccruKrX7kNI4QbnrNQQ9jPKr291NYLNHh3g3/GjeRmWd2Q5KdzXut4vtt51aRRt9xAXmzg4ycT/51Mj7S/dBA==" />
+        </item>
+
+        <!-- Version 1.0.0 -->
         <item>
             <title>Davlanggisch Docs Version 1.0.0</title>
             <description><![CDATA[
-                <h2>Erstes offizielles Release: Davlanggisch Docs 1.0.0</h2>
+                <h2>Neuheiten in Davlanggisch Docs 1.0.0 (Build 1):</h2>
                 <ul>
-                    <li>Offizielles Wörterschreibprogramm und Dokumenten-Editor für Davlanggisch.</li>
-                    <li>Vollwertige Textverarbeitung mit DIN-A4-Seitenlayout und Wörterbuch-Import.</li>
+                    <li><strong>Google Docs-Design:</strong> Modernes Dashboard mit Dokumenten-Raster, Titelsuche, 3-Striche-Drawer und 9-Punkte-Waffel-Menü.</li>
+                    <li><strong>Unendliches Dokumentenblatt:</strong> Breites Endlosblatt mit linksbündiger Zeilennummerierung (1, 2, 3...) und editierbarem Dokumenttitel.</li>
+                    <li><strong>Wörterbuch-Syntax &amp; Gist-Kompatibilität:</strong> Direkte Erstellung und Verwaltung von Davlanggisch-Wortdefinitionen ({ "de": "...", "schrift": "...", "laut": "..." }).</li>
+                    <li><strong>✦ Kaya KI-Studio:</strong> Intelligente Wortschöpfung nach linguistischen Davlanggisch-Regeln mit 1-Klick-Übernahme ins Dokument. Multi-Modell Fallback (gemini-3-flash-preview, gemini-3.1-flash-lite) über native macOS URLSession.</li>
+                    <li><strong>Konto &amp; Profil-Lightbox:</strong> Vollständiges Anmeldesystem (E-Mail/Passwort, Google, Microsoft) mit Profilbild-Großansicht (Lightbox), Account-Wechsler und automatischer Sitzungssynchronisation.</li>
+                    <li><strong>Eigenständiges App-Icon:</strong> Einzigartiges Apple-Squircle-Design für macOS Dock und Finder.</li>
+                    <li><strong>Sparkle 2 Auto-Updater:</strong> Automatische Hintergrund-Updates direkt über GitHub Releases.</li>
                 </ul>
             ]]></description>
-            <pubDate>Wed, 04 Nov 2026 12:00:00 +0100</pubDate>
+            <pubDate>Fri, 30 Oct 2026 17:30:00 +0100</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.0/DavlanggischDocs-1.0.0.dmg"
-                length="2385410"
+                length="2070508"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="m1N2o3P4q5R6s7T8u9V0w1X2y3Z4a5B6c7D8e9F0g1H2i3J4k5L6m7N8o9P0q1R2s3T4u5V6w7X8y9Z0a1B2c3==" />
+                sparkle:edSignature="Xlh+iL1xO+yp5ru+LqSq86L2faj9B437hxQf+IEbggVIus9s8LbtAEJfbTmusmn9GtjH8ajgYvPYSaVonVAECQ==" />
         </item>
     </channel>
 </rss>
