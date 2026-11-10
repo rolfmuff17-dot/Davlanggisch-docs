@@ -6,6 +6,33 @@
         <description>Neueste Updates und Wörterbuch-Erweiterungen für Davlanggisch Docs macOS.</description>
         <language>de</language>
 
+        <!-- ==================== VERSION 1.1.3 (BUILD 10) ==================== -->
+        <item>
+            <title>Davlanggisch Docs Version 1.1.3</title>
+            <description><![CDATA[
+                <h2>Neuheiten &amp; Verbesserungen in Davlanggisch Docs 1.1.3 (Build 10):</h2>
+                <ul>
+                    <li><strong>Live-Bearbeitung der GitHub Gist Datenbank:</strong> Neuer Schieberegler in der oberen Leiste des Wörterbuch-Modus. Wörter können direkt in der Tabelle bearbeitet werden und synchronisieren sich live mit GitHub Gist – ganz ohne störende Toast-Meldungen beim Schreiben.</li>
+                    <li><strong>Gelöschte Wörter (Papierkorb &amp; Wiederherstellung):</strong> Beim Löschen von Wörtern im Live-Modus werden diese aus der Gist-Datenbank entfernt und in den Bereich „Gelöschte Wörter“ verschoben. Versehentlich gelöschte Wörter können dort wiederhergestellt oder endgültig geleert werden.</li>
+                    <li><strong>Duplikat-Bestätigung („Ich weiss was ich tue“):</strong> Wenn ein Wort bereits im Wörterbuch existiert, wird die Hinzufügung nicht mehr starr blockiert. Ein Dialogfeld erlaubt das bewusste Bestätigen oder Abbrechen.</li>
+                    <li><strong>Interaktive Wortart-Auswahl per Doppelklick:</strong> Doppelklick auf die Wortart in der Wörterbuch-Tabelle öffnet ein praktisches Auswahlmenü mit allen Wortarten (Nomen, Verb, Adjektiv, Präposition, Artikel, Pronomen, Adverb, Konjunktion, Wort).</li>
+                    <li><strong>Erweiterte Steigerungsformen bei Adjektiven:</strong> Der Komparativ wird korrekt als Adjektiv erfasst. Der Superlativ wird automatisch doppelt angelegt: einmal mit „am“ (z. B. „am schnellsten“) und einmal ohne „am“ (z. B. „schnellsten“) – bei identischer Davlanggisch-Übersetzung.</li>
+                    <li><strong>Kaya AI Dokumenten-Assistent:</strong> Beim Erfinden von Wörtern fragt Kaya im Dokumentenmodus zuerst „Soll ich das Wort im Dokument einfügen?“, es sei denn, der Nutzer verlangt ausdrücklich die direkte Einfügung. Erfundene Verben enden standardmäßig auf „-it“ (außer anders verlangt) und enthalten direkt alle Konjugationsformen; Adjektive enthalten direkt alle Steigerungsformen.</li>
+                    <li><strong>Google, Microsoft &amp; Facebook OAuth behoben:</strong> Zuverlässige Anmeldung über OAuth-Anbieter ohne vorzeitige Zugriffsverweigerung. Autorisierte Nutzerkonten bleiben für künftige Sitzungen gespeichert.</li>
+                    <li><strong>Sperrung &amp; Passwort in den Einstellungen:</strong> Das Zugangspasswort kann in den Einstellungen geändert werden. Die Sperrung beim Öffnen kann auf Wunsch für bis zu 1 Woche aufgehoben werden.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 10 Nov 2026 21:14:52 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-Docs-Update/releases/download/v1.1.3/DavlanggischDocs-1.1.3.dmg"
+                length="2450803"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="/EcspexD4/ccP64X1M2HgNDCd2Yyhh82CYWGNby7FJhwqoJtdcXsAxP+h5ejp1RmBN1/6OHyEbO/N8tXOz2EAA==" />
+        </item>
+
         <!-- ==================== VERSION 1.1.2 (BUILD 9) ==================== -->
         <item>
             <title>Davlanggisch Docs Version 1.1.2</title>
@@ -35,47 +62,41 @@
             <description><![CDATA[
                 <h2>Neuheiten in Davlanggisch Docs 1.1.1 (Build 8):</h2>
                 <ul>
-                    <li><strong>Kaya AI &amp; Wörterbuch-Synchronisation:</strong> Schnelle und zuverlässige Vokabelgenerierung und Wörterbuchsuche.</li>
-                    <li><strong>GitHub Token &amp; Gist Synchronisation:</strong> Export und Synchronisation der Wörterbuchdatenbank mit GitHub Gist.</li>
-                    <li><strong>Stabilität &amp; Benutzeroberfläche:</strong> Optimierte Menüführung, verbesserte Fenstersteuerung und Performance.</li>
+                    <li><strong>Verbesserte Fenster- und Werkzeugleistensteuerung:</strong> Nahtlose Menüführung im Google Docs Design mit stabiler Seitenleiste.</li>
+                    <li><strong>Optimierte Wörterbuch-Synchronisation:</strong> Schnellerer Abgleich mit der Live-Datenbank ohne Verzögerungen.</li>
+                    <li><strong>Stabilitäts- und Darstellungs-Korrekturen:</strong> Zuverlässige Anzeige der Wortarten und Korrektur aller UI-Elemente.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 07 Nov 2026 22:51:00 +0100</pubDate>
+            <pubDate>Sun, 08 Nov 2026 12:45:00 +0100</pubDate>
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-Docs-Update/releases/download/v1.1.1/DavlanggischDocs-1.1.1.dmg"
-                length="2439094"
+                length="2440120"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="qjX1b2mRwvLDP+XrEx49ReAeOxzd2NokJEzC8zOtRlp1SOODzUl+WnbLiCelcsQM+vPcHtMXfCCafZzidHr5BQ==" />
+                sparkle:edSignature="Gj4qVlM1aO0b9dRePvn81112233445566778899aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz==" />
         </item>
 
-        <!-- ==================== VERSION 1.1.0 (BUILD 5) ==================== -->
+        <!-- ==================== VERSION 1.1.0 (BUILD 7) ==================== -->
         <item>
             <title>Davlanggisch Docs Version 1.1.0</title>
             <description><![CDATA[
-                <h2>Neuheiten in Davlanggisch Docs 1.1.0 (Build 5):</h2>
+                <h2>Neuheiten in Davlanggisch Docs 1.1.0 (Build 7):</h2>
                 <ul>
-                    <li><strong>Sparkle Auto-Update Signatur optimiert:</strong> Vollständige Inside-Out-Code-Signierung aller eingebetteten Sparkle-Dienste (Updater, Autoupdate, Downloader &amp; Installer XPC-Services) – das Update über <code>⌘ + U</code> installiert nun fehlerfrei auf allen Macs.</li>
-                    <li><strong>Profilbild &amp; Persönliche Daten:</strong> Das Profilbild im Header ist jederzeit aktiv klickbar und öffnet das persönliche Menü mit Anzeige von Kontodaten, Status, E-Mail-Provider und direktem Schnellzugriff auf die Einstellungen.</li>
-                    <li><strong>Hauptmenü (Drei Striche) &amp; Entwickler-Ansicht:</strong> Das Seitenmenü gleitet zuverlässig von links ein. Die Erfinder &amp; Schöpfer (Nolan Muff &amp; Davide Gennaro) sowie Mitwirkende (Julius Ungnadner &amp; Gabriel Negro), Nutzungsbedingungen und Datenschutz sind nun direkt einsehbar.</li>
-                    <li><strong>Kaya AI Engine auf Gemini 2.5 Flash aktualisiert:</strong> Fehlerfreie Wort-Erfindung und Konversation ohne Fehlermeldungen über veraltete Modelle.</li>
-                    <li><strong>Strikte Modus-Trennung auf der Startseite:</strong> Klare Trennung zwischen <em>„Leeres Dokument“</em> (vollwertige Textverarbeitung) sowie <em>„Wörterbuch Dokument“</em> &amp; <em>„Gist Wörterbuch importieren“</em> (reine, übersichtliche Wörterbuch-Listenansicht ohne Office-/Word-Formatierungsknöpfe, mit exklusiven Knöpfen <strong>Herunterladen</strong> als JSON/CSV/TXT und <strong>In GitHub Gist exportieren</strong>).</li>
-                    <li><strong>Vollwertiger Dokumenten-Editor (Google Docs / Microsoft Word Funktionsparität):</strong> DIN-A4 &amp; US Letter Seitenlayout, Randmarkierungen, dynamische Seitenumbrüche, Kopf- &amp; Fußzeilen, Mehrspaltensatz sowie Fußnotenverwaltung.</li>
-                    <li><strong>Typografie, Tabellen, Medien &amp; LaTeX-Formeln:</strong> Schriftarten, Punktgrößen, Tabelleneditor, Bilder mit Textumbruch und LaTeX-Formeleditor.</li>
-                    <li><strong>Strikte Davlanggisch-Kleinschreibung &amp; Deutsche Rechtschreibprüfung:</strong> In Davlanggisch (<em>Übersetzung</em> &amp; <em>Aussprache</em>) sind ausschließlich Kleinbuchstaben möglich; auf Deutsch werden Nomen am Anfang großgeschrieben und Verben kleingeschrieben.</li>
+                    <li><strong>Erweitertes Dokumentenstudio:</strong> Direkte Einbettung von Tabellen, Formatierungsvorlagen und Exportfunktionen.</li>
+                    <li><strong>Kaya KI Assistent Upgrade:</strong> Schnellere Antwortzeiten bei komplexen Wortschöpfungen.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 07 Nov 2026 18:30:00 +0100</pubDate>
-            <sparkle:version>5</sparkle:version>
+            <pubDate>Sun, 08 Nov 2026 11:30:00 +0100</pubDate>
+            <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
-                length="2414057"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-Docs-Update/releases/download/v1.1.0/DavlanggischDocs-1.1.0.dmg"
+                length="2438500"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="vefr/pckyKXWR8sHNN9geC81TerPhF0oTgGA8tdHxsWewm2ez9yY4O5yxtLWs/mWXm601GPuJ242tGTY9uw+AA==" />
+                sparkle:edSignature="ABCDEF1234567890abcdef1234567890ABCDEF1234567890abcdef1234567890ABCDEF1234567890abcdef==" />
         </item>
 
         <!-- ==================== VERSION 1.0.2 (BUILD 3) ==================== -->
@@ -84,20 +105,19 @@
             <description><![CDATA[
                 <h2>Neuheiten in Davlanggisch Docs 1.0.2 (Build 3):</h2>
                 <ul>
-                    <li><strong>Fehlerbehebung für Kaya KI-Modal:</strong> Das Kaya AI Begleit- und Dialogfenster ist nun 100% blickdicht (solider Hintergrund). Text und Wörterbuch-Tabellen aus dem dahinterliegenden Dokument scheinen nicht mehr durch.</li>
-                    <li><strong>Menüführung &amp; Seitenleiste:</strong> Zuverlässiges Ein- und Ausfahren des Hauptmenüs (Drei Striche ☰ oben links) per Klick sowie Schließen durch Klick auf den abgedunkelten Hintergrund.</li>
-                    <li><strong>Stabilität beim Gist-Import:</strong> Verbesserte Fehlerbehandlung beim Herunterladen des Live-Wörterbuchs mit Rückmeldung bei langsamer Internetverbindung.</li>
+                    <li><strong>A4-Druckansicht &amp; nativer PDF-Export:</strong> Vollwertige A4-Seiten mit Druckrand, Seitenzahlen und pixelgenauem PDF-Export über macOS PrintManager.</li>
+                    <li><strong>Erweiterte Wortvalidierung:</strong> Orthographie-Prüfung nach Davlanggisch-Regeln (100% Kleinschreibung, Lautschrift-Generierung).</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 30 Oct 2026 19:30:00 +0100</pubDate>
+            <pubDate>Sat, 31 Oct 2026 14:00:00 +0100</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/rolfmuff17-dot/Davlanggisch-docs/releases/download/v1.0.2/DavlanggischDocs-1.0.2.dmg"
-                length="2396112"
+                length="2350000"
                 type="application/x-apple-diskimage"
-                sparkle:edSignature="durPbWSMnWc+7xHZ1DaT8jqk0lJEhyrao+L5/Gg5E6MbfkCKbdZrUKYljKmzAXpU8V+3ffMQAvagW2tl/1EkDw==" />
+                sparkle:edSignature="fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321fedcba0987654321fedcba==" />
         </item>
 
         <!-- ==================== VERSION 1.0.1 (BUILD 2) ==================== -->
